@@ -13,17 +13,17 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © Evichann                        [+]${NC}"
+  echo -e "${BLUE}[+]                  ©     qinn                     [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
-  echo -e "${RED}[+] =============================================== [+]${NC}"
+  echo -e "${RED}[+] ===============================================  [+]${NC}"
   echo -e ""
   echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
   echo -e "dilarang keras untuk dikasih gratis."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@Evichann"
+  echo -e "@anjlwh"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@Evichann"
+  echo -e "@qin"
   sleep 4
   clear
 }
@@ -56,18 +56,18 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY Evichann            [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY     qin            [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "Evi" ]; then
+  if [ "$USER_TOKEN" = "Qin" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke Vinz${NC}"
-    echo -e "${YELLOW}TELEGRAM : @davinn24${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6285780916731${NC}"
+    echo -e "${GREEN}Buy dulu Gih Ke Qin${NC}"
+    echo -e "${YELLOW}TELEGRAM : @anjlwh${NC}"
+    echo -e "${YELLOW}WHATSAPP : 6283125321220${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
     echo -e "${YELLOW}©davinn24${NC}"
     exit 1
